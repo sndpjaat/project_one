@@ -1,10 +1,10 @@
 
 import './App.css';
-import HomePage from './components/HomePage';
-import AboutUs from './components/AboutUs';
-import ContactPage from './components/ContactPage';
+import HomePage from './components/work/HomePage';
+import AboutUs from './components/office/AboutUs';
+import ContactPage from './components/work/ContactPage';
 import { Route,  Routes } from 'react-router-dom';
-import Blog from './components/Blog';
+import Blog from './components/office/Blog';
 
 function App() {
   return (
